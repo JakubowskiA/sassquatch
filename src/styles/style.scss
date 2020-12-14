@@ -1,0 +1,31 @@
+@import "./image";
+
+$backgroundColor: lightblue;
+$textColor: orchid;
+
+@mixin center {
+    text-align: center;
+}
+
+body {
+    background-color: $backgroundColor;
+    @include center();
+}
+
+header {
+    font-size: 42pt;
+}
+
+p {
+    font-size: 18pt;
+    &:hover {
+        font-size: 22pt;
+        color: $textColor;
+    }
+}
+
+.wow{
+    &:hover {
+        color: purple;
+    }
+}

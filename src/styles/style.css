@@ -1,0 +1,27 @@
+img {
+  margin: 3%;
+  height: 50vh;
+}
+
+body {
+  background-color: lightblue;
+  text-align: center;
+}
+
+header {
+  font-size: 42pt;
+}
+
+p {
+  font-size: 18pt;
+}
+
+p:hover {
+  font-size: 22pt;
+  color: orchid;
+}
+
+.wow:hover {
+  color: purple;
+}
+/*# sourceMappingURL=style.css.map */
