@@ -1,4 +1,14 @@
+$imgHeight: 45vh;
+
+@mixin imgSizing($height) {
+    height: $height;
+    margin: $height/15;
+}
+
 img{
-    margin: 3%;
-    height: 50vh;
+    @include imgSizing($imgHeight)
+}
+
+.second img{
+    @include imgSizing($imgHeight/2)
 }

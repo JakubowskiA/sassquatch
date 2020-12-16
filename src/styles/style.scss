@@ -29,3 +29,17 @@ p {
         color: purple;
     }
 }
+
+.second {
+    margin-top: 5%;
+}
+
+.smaller {
+    @extend p;
+    color: black;
+    font-size: 22pt;
+    &:hover{
+        font-size: 22pt;
+        color: black;
+    }
+  }

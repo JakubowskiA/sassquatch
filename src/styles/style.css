@@ -1,6 +1,11 @@
 img {
-  margin: 3%;
-  height: 50vh;
+  height: 45vh;
+  margin: 3vh;
+}
+
+.second img {
+  height: 22.5vh;
+  margin: 1.5vh;
 }
 
 body {
@@ -12,16 +17,30 @@ header {
   font-size: 42pt;
 }
 
-p {
+p, .smaller {
   font-size: 18pt;
 }
 
-p:hover {
+p:hover, .smaller:hover {
   font-size: 22pt;
   color: orchid;
 }
 
 .wow:hover {
   color: purple;
+}
+
+.second {
+  margin-top: 5%;
+}
+
+.smaller {
+  color: black;
+  font-size: 22pt;
+}
+
+.smaller:hover {
+  font-size: 22pt;
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */

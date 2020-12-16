@@ -10,8 +10,8 @@ function App() {
         <p className="very">Very squatch.</p>
         <p className="wow">Wow.</p>
 
-        <div>
-          <p className="much">second smaller sassquatch</p>
+        <div className="second">
+          <p className="smaller">second smaller sassquatch</p>
           <img src="sasquatch.png" />
 
           <p className="very">Smaller but no less sassy.</p>
